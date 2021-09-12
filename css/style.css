@@ -121,5 +121,19 @@ main {
   margin-top: 1rem;
   color: white;
   text-align: center;
+  font-size: 15px;
+}
+
+.valores .valores__title {
+  color: white;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.valores .valores__img {
+  background-image: url(/assets/nuestrosValores.png);
+  background-size: cover;
+  width: 360px;
+  height: 500px;
 }
 /*# sourceMappingURL=style.css.map */
