@@ -3,6 +3,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+* p {
+  margin: 0;
+}
+
 .navbar-toggler {
   background-color: white;
 }
@@ -41,5 +45,21 @@
   left: 8rem;
   top: 12rem;
   width: 120px;
+}
+
+.services {
+  margin-bottom: 1rem;
+  font-size: 15px;
+  background-color: black;
+}
+
+.services .services__title {
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.services .servises__box--service .servises__box--service--text {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

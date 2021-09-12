@@ -7,6 +7,9 @@ $colorTextSlogan: #faa533;
 *{
 
     font-family: 'Montserrat', sans-serif;
+    p{
+        margin: 0;
+    }
 
 }
 
@@ -22,6 +25,8 @@ $colorTextSlogan: #faa533;
     width: 250px;
 
 }
+
+
 
 .intro{
     width: 100%;
@@ -58,4 +63,28 @@ $colorTextSlogan: #faa533;
             width: 120px;
 
         }
+}
+
+.services{
+
+    margin-bottom: 1rem;
+    font-size: 15px;
+
+    .services__title{
+        color: white;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    background-color: black;
+    
+    .servises__box--service{
+
+        .servises__box--service--text{
+
+            color: white;
+
+        }
+    }
+    
 }
