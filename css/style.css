@@ -7,6 +7,10 @@
   margin: 0;
 }
 
+main {
+  background-color: black;
+}
+
 .navbar-toggler {
   background-color: white;
 }
@@ -60,6 +64,25 @@
 }
 
 .services .servises__box--service .servises__box--service--text {
+  color: white;
+}
+
+.quienesSomos .quienesSomos__image {
+  background-image: url(/assets/quienesSomos.jpg);
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  position: relative;
+}
+
+.quienesSomos .quienesSomos__image .quienesSomos__image--txt {
+  position: absolute;
+  top: 5rem;
+  color: white;
+}
+
+.quienesSomos .quienesSomos__text {
+  margin-top: 1rem;
   color: white;
 }
 /*# sourceMappingURL=style.css.map */
