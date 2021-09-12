@@ -85,4 +85,41 @@ main {
   margin-top: 1rem;
   color: white;
 }
+
+.visionMision .visionMision__image {
+  width: 100%;
+  height: 350px;
+  background-image: url(/assets/misionVisionImage.jpg);
+  background-size: cover;
+  margin-top: 1rem;
+}
+
+.visionMision .visionMision__text {
+  color: white;
+}
+
+.visionMision .visionMision__text .visionMision__text--titleMision {
+  margin-top: 1rem;
+}
+
+.visionMision .visionMision__text .visionMision__text--titleVision {
+  margin-top: 1rem;
+}
+
+.contratos {
+  margin-top: 1rem;
+}
+
+.contratos .contratos__image {
+  background-image: url(/assets/contrato.jpg);
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+}
+
+.contratos .contratos__text {
+  margin-top: 1rem;
+  color: white;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */

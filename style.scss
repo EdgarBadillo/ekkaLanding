@@ -3,6 +3,7 @@
 // variables
 $colorTextSlogan: #faa533;
 $colorNormalText: white;
+$marginTop: 1rem;
 
 
 *{
@@ -80,7 +81,7 @@ main{
     .services__title{
         color:$colorNormalText;
         text-align: center;
-        margin-top: 1rem;
+        margin-top: $marginTop
     }
 
     background-color: black;
@@ -112,14 +113,63 @@ main{
                 top: 5rem;
                 color: $colorNormalText;
             }
-
     }
     .quienesSomos__text{
-        margin-top: 1rem;
+        margin-top: $marginTop;
         color: $colorNormalText;
+    }
+}
+
+.visionMision{
+
+
+    .visionMision__image{
+
+        width: 100%;
+        height: 350px;
+        background-image: url(/assets/misionVisionImage.jpg);
+        background-size: cover;
+        margin-top: $marginTop;
 
     }
+    .visionMision__text{
 
+        color: $colorNormalText;
+
+        .visionMision__text--titleMision{
+
+            margin-top: $marginTop;
+
+
+        }
+
+        .visionMision__text--titleVision{
+
+            margin-top: $marginTop;
+
+        }
+    }
+}
+
+.contratos{
+    
+    
+    margin-top: $marginTop;
+
+    .contratos__image{
+        background-image: url(/assets/contrato.jpg);
+        width: 100%;
+        height: 150px;
+        background-size: cover;
+    }
+
+    .contratos__text{
+        margin-top: $marginTop;
+        color: $colorNormalText;
+        text-align: center;
+
+    }
+    
 
 
 }
